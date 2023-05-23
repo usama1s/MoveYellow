@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-width: 380px;
+  background: #ffbd59;
+  overflow-x: hidden;
+  color: #000;
+}
+
+.imgbox img {
+  max-width: 518px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.mx-740 {
+  max-width: 740px;
+}
+.bg-light-yellow {
+  background: #fecd81;
+}
+.bottom-wave {
+  padding-bottom: 75px;
+  position: relative;
+  overflow: hidden;
+}
+.bg-light-yellow.bottom-wave::after {
+  background: #ffbd59 !important;
+}
+.bottom-wave::after,
+.top-wave::before {
+  content: "";
+  position: absolute;
+  width: 140%;
+  height: 40px;
+  bottom: 0px;
+  background: #fecd81;
+  clip-path: polygon(
+    0% 100%,
+    0.5% 99.7781%,
+    1% 99.1144%,
+    1.5% 98.0147%,
+    2% 96.4888%,
+    2.5% 94.5503%,
+    3% 92.2164%,
+    3.5% 89.5078%,
+    4% 86.4484%,
+    4.5% 83.0656%,
+    5% 79.3893%,
+    5.5% 75.4521%,
+    6% 71.289%,
+    6.5% 66.9369%,
+    7% 62.4345%,
+    7.5% 57.8217%,
+    8% 53.1395%,
+    8.5% 48.4295%,
+    9% 43.7333%,
+    9.5% 39.0928%,
+    10% 34.5492%,
+    10.5% 30.1426%,
+    11% 25.9123%,
+    11.5% 21.8958%,
+    12% 18.1288%,
+    12.5% 14.6447%,
+    13% 11.4743%,
+    13.5% 8.646%,
+    14% 6.1847%,
+    14.5% 4.1123%,
+    15% 2.4472%,
+    15.5% 1.2042%,
+    16% 0.39426%,
+    16.5% 0%,
+    17% 0.098664%,
+    17.5% 0.61558%,
+    18% 1.5708%,
+    18.5% 2.956%,
+    19% 4.7586%,
+    19.5% 6.9629%,
+    20% 9.5492%,
+    20.5% 12.4944%,
+    21% 15.7726%,
+    21.5% 19.3546%,
+    22% 23.2087%,
+    22.5% 27.3005%,
+    23% 31.5938%,
+    23.5% 36.0504%,
+    24% 40.6309%,
+    24.5% 45.2946%,
+    25% 50%,
+    25.5% 54.7054%,
+    26% 59.3691%,
+    26.5% 63.9496%,
+    27% 68.4062%,
+    27.5% 72.6995%,
+    28% 76.7913%,
+    28.5% 80.6454%,
+    29% 84.2274%,
+    29.5% 87.5056%,
+    30% 90.4508%,
+    30.5% 93.0371%,
+    31% 95.2414%,
+    31.5% 97.044%,
+    32% 98.4292%,
+    32.5% 99.3844%,
+    33% 99.9013%,
+    33.5% 100%,
+    34% 99.6057%,
+    34.5% 98.7958%,
+    35% 97.5528%,
+    35.5% 95.8877%,
+    36% 93.8153%,
+    36.5% 91.354%,
+    37% 88.5257%,
+    37.5% 85.3553%,
+    38% 81.8712%,
+    38.5% 78.1042%,
+    39% 74.0877%,
+    39.5% 69.8574%,
+    40% 65.4508%,
+    40.5% 60.9072%,
+    41% 56.2667%,
+    41.5% 51.5705%,
+    42% 46.8605%,
+    42.5% 42.1783%,
+    43% 37.5655%,
+    43.5% 33.0631%,
+    44% 28.711%,
+    44.5% 24.5479%,
+    45% 20.6107%,
+    45.5% 16.9344%,
+    46% 13.5516%,
+    46.5% 10.4922%,
+    47% 7.7836%,
+    47.5% 5.4497%,
+    48% 3.5112%,
+    48.5% 1.9853%,
+    49% 0.88564%,
+    49.5% 0.2219%,
+    50% 0%,
+    50.5% 0.2219%,
+    51% 0.88564%,
+    51.5% 1.9853%,
+    52% 3.5112%,
+    52.5% 5.4497%,
+    53% 7.7836%,
+    53.5% 10.4922%,
+    54% 13.5516%,
+    54.5% 16.9344%,
+    55% 20.6107%,
+    55.5% 24.5479%,
+    56% 28.711%,
+    56.5% 33.0631%,
+    57% 37.5655%,
+    57.5% 42.1783%,
+    58% 46.8605%,
+    58.5% 51.5705%,
+    59% 56.2667%,
+    59.5% 60.9072%,
+    60% 65.4509%,
+    60.5% 69.8574%,
+    61% 74.0877%,
+    61.5% 78.1042%,
+    62% 81.8712%,
+    62.5% 85.3553%,
+    63% 88.5257%,
+    63.5% 91.354%,
+    64% 93.8153%,
+    64.5% 95.8877%,
+    65% 97.5528%,
+    65.5% 98.7958%,
+    66% 99.6057%,
+    66.5% 100%,
+    67% 99.9013%,
+    67.5% 99.3844%,
+    68% 98.4292%,
+    68.5% 97.044%,
+    69% 95.2414%,
+    69.5% 93.0371%,
+    70% 90.4508%,
+    70.5% 87.5056%,
+    71% 84.2274%,
+    71.5% 80.6454%,
+    72% 76.7913%,
+    72.5% 72.6995%,
+    73% 68.4062%,
+    73.5% 63.9496%,
+    74% 59.3691%,
+    74.5% 54.7054%,
+    75% 50%,
+    75.5% 45.2946%,
+    76% 40.6309%,
+    76.5% 36.0504%,
+    77% 31.5938%,
+    77.5% 27.3005%,
+    78% 23.2087%,
+    78.5% 19.3546%,
+    79% 15.7726%,
+    79.5% 12.4944%,
+    80% 9.5491%,
+    80.5% 6.9629%,
+    81% 4.7586%,
+    81.5% 2.956%,
+    82% 1.5708%,
+    82.5% 0.61558%,
+    83% 0.098664%,
+    83.5% 0%,
+    84% 0.39427%,
+    84.5% 1.2042%,
+    85% 2.4472%,
+    85.5% 4.1123%,
+    86% 6.1847%,
+    86.5% 8.646%,
+    87% 11.4743%,
+    87.5% 14.6447%,
+    88% 18.1288%,
+    88.5% 21.8958%,
+    89% 25.9123%,
+    89.5% 30.1426%,
+    90% 34.5492%,
+    90.5% 39.0928%,
+    91% 43.7333%,
+    91.5% 48.4295%,
+    92% 53.1395%,
+    92.5% 57.8217%,
+    93% 62.4345%,
+    93.5% 66.9369%,
+    94% 71.289%,
+    94.5% 75.4521%,
+    95% 79.3893%,
+    95.5% 83.0656%,
+    96% 86.4484%,
+    96.5% 89.5078%,
+    97% 92.2164%,
+    97.5% 94.5503%,
+    98% 96.4888%,
+    98.5% 98.0147%,
+    99% 99.1144%,
+    99.5% 99.7781%,
+    100% 100%
+  );
+  left: -21%;
+}
+.top-wave::before {
+  top: -46px;
+  background: #ffbd59;
+}
+.top-wave {
+  padding-top: 40px;
+  overflow: hidden;
+}
+.courier-box {
+  border: 1px solid #ffa318;
+  box-shadow: 8px 8px 30px -4px rgba(166, 100, 0, 0.2);
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.circle-box {
+  width: 250px;
+  height: 250px;
+  background: #ffbd59;
+  border: 0.833333px solid #ffa318;
+  box-shadow: 6.66667px 6.66667px 25px -3.33333px rgba(166, 100, 0, 0.15);
+  border-radius: 250px;
+  margin: 30px auto;
+}
+.circle-number {
+  width: 44px;
+  height: 44px;
+  background: #ffa318;
+  border-radius: 100%;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  top: 0;
+  left: 37px;
+}
+.custominput input {
+  padding: 13px 20px 13px 52px;
+  width: 100%;
+  background: #ffbd59;
+  border: 1px solid #ffa318;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.custominput input::placeholder,
+.custominput input {
+  color: #d28107;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.custominput input:focus-visible {
+  outline: none;
+}
+ input[type="date"]::-webkit-calendar-picker-indicator ,  input[type="time"]::-webkit-calendar-picker-indicator  {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.custominput img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 24px;
+}
+.terms a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1a72f6;
+  text-decoration: none;
+}
+
+.blackbtn {
+  color: #fff;
+  border-radius: 4px;
+  background: #000;
+  transition: 0.3s;
+  border: 1px solid #000;
+}
+.blackbtn:hover {
+  background: transparent;
+  color: #000;
+}
+.cntr {
+  position: relative;
+}
+.cbx {
+  position: relative;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  border: 1.5px solid #d28107;
+  border-radius: 4px;
+  vertical-align: middle;
+  transition: background 0.1s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.cbx:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 8.3px;
+  width: 7px;
+  height: 14px;
+  opacity: 0;
+  transform: rotate(45deg) scale(0);
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease;
+  transition-delay: 0.15s;
+}
+
+.lbl {
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.cbxinp:checked ~ .cbx {
+  border-color: transparent;
+  background: #121212;
+  animation: jelly 0.6s ease;
+}
+
+.cbxinp:checked ~ .cbx:after {
+  opacity: 1;
+  transform: rotate(45deg) scale(1);
+}
+.hidden-xs-up {
+  display: none !important;
+}
+@keyframes jelly {
+  from {
+    transform: scale(1, 1);
+  }
+
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+
+  65% {
+    transform: scale(0.95, 1.05);
+  }
+
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+
+footer h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 2px;
+}
+.copyright {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  border-top: 1px solid #d28107;
+}
+.popupbox {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+#popup {
+  display: none;
+}
+.popup {
+  max-width: 892px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 18px 36px rgba(166, 100, 0, 0.3);
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+#close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.head {
+  border-bottom: 0.779747px solid #bfbfbf;
+}
+.popup label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  color: #000;
+}
+.popup input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+.popup input:focus-visible {
+  outline: none;
+}
+.popup .submit {
+  padding: 16px 24px 16px 24px;
+  background: #d28107;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 9px;
+  border: 1px solid #d28107;
+  transition: 0.2s;
+}
+.popup .submit:hover {
+  background: transparent;
+  color: #d28107;
+}
+.popup .checkout-options h5 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #808080;
+}
+.popup .checkout-options h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.popup .checkout-options h6 span {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 17px;
+  color: #808080;
+}
+.minutes {
+  font-weight: 400;
+  font-size: 14.0354px;
+  line-height: 9px;
+  color: #808080;
+}
+.minutes span {
+  color: #d28107;
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+  .firstrow {
+    height: 95vh;
+    overflow-y: auto;
+  }
+}
+@media(max-width:767px){
+  .imgbox img {
+    width: 68%;
+    margin: 20px auto;
+  }
+}
